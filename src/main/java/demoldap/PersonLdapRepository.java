@@ -6,9 +6,9 @@ import org.springframework.stereotype.Repository;
 
 public interface PersonLdapRepository extends LdapRepository<Person>{
 
-	Person findByUsername(String username);
-
-	Person findByUsernameAndPassword(String username, String password);
-
-    List<Person> findByUsernameLikeIgnoreCase(String username);
+//	Person findByUsername(String username);
+//
+//	Person findByUsernameAndPassword(String username, String password);
+//
+//    List<Person> findByUsernameLikeIgnoreCase(String username);
 }

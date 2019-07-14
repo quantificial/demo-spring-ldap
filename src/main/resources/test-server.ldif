@@ -1,16 +1,8 @@
-
-
 dn: dc=springframework,dc=org
 objectclass: top
 objectclass: domain
 objectclass: extensibleObject
 dc: springframework
-
-dn: ou=Policies,dc=springframework,dc=org
-objectClass: top
-objectClass: organizationalUnit
-ou: Policies
-description: Password policy
 
 dn: ou=groups,dc=springframework,dc=org
 objectclass: top
