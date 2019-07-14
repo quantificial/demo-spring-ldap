@@ -1,0 +1,9 @@
+server-work
+.gradle
+.mvn
+.settings
+bin
+target
+*.log
+*.log*.gz
+
