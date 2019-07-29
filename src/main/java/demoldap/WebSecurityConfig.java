@@ -39,8 +39,8 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 					.url("ldap://localhost:8389/dc=springframework,dc=org")
 					.and()
 				.passwordCompare()
-					//.passwordEncoder(new LdapShaPasswordEncoder())
-					.passwordEncoder(bcryptPasswordEncoder())
+					.passwordEncoder(new LdapShaPasswordEncoder())
+					//.passwordEncoder(bcryptPasswordEncoder())
 					.passwordAttribute("userPassword");
 	}
 	
